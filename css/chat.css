@@ -1,0 +1,58 @@
+.mainbox{
+    width: 350px;
+    height: 600px;
+    border: 1px solid red;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(/img/wp4410714.jpg);
+    background-position:center ;
+    background-attachment:scroll ;
+    background-size:cover ;
+    background-repeat:no-repeat ;
+} 
+.text{
+    width: 80px;
+    height: 20px;
+    background-color: blue;
+    border-radius:5px;;
+    margin: 10px;
+    position: relative;
+}
+.text p{
+    color: white;
+    margin: 15px;
+}
+.text::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: blue;
+    bottom: -3px;
+    left: -1px;
+    transform: rotate(120deg) skewX(50deg);
+}
+.t{
+    width: 80px;
+    height: 20px;
+    background-color: blue;
+    border-radius:5px;;
+    margin: 10px;
+    position: relative;
+    margin-left: 70%;
+    margin-bottom: 100px;
+}
+.t p{
+    color: white;
+    margin: 15px;
+}
+.t::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: blue;
+    bottom: -3px;
+    right: -1px;
+    transform: rotate(12deg) skewX(50deg)
+}
