@@ -3064,6 +3064,10 @@
 	filter: drop-shadow(2px 4px 6px black);
 }
 
-
+.es{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
 

@@ -10,15 +10,16 @@
     <title>project</title>
 </head>
 <body>
-<nav>
+<!-- start nav -->
+<nav class="white z-depth-0 top_navbar">
     <div class="white z-depth-0">
-      <a href="#!" class="blue-text">Home</a>
+      <a href="#!" class="blue-text hide-on-med-and-up">Home</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons blue-text">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+      <ul class="hide-on-med-and-down">
+        <li><a href="/" class="blue-text">Home</a></li>
+        <li><a href="/users.html"class="blue-text">users</a></li>
+        <li><a href="www.codeyad.com"class="blue-text">codeyad</a></li>
+        <li><a href="dzare1388@gmail.com"class="blue-text">email</a></li>
       </ul>
     </div>
   </nav>
@@ -39,11 +40,29 @@
     <li><a class="waves-effect" href="W.html">Home</a></li>
     <li><a class="waves-effect" href="W.html">users</a></li>
   </ul>
-
-
-
-
-
+<!-- end nav -->
+<!-- home start -->
+<section class="row">
+  <!-- add button -->
+  <div class="p-l-10 p-r-10 p-t-10 col s12 m3 l2">
+    <button class="waves-effect waves-light btn blue darken-2 p-l-30 p-r-30 w-full rounded_pill flex-c">
+    <i class="material-icons m-r-5">add</i>
+    add user
+    </button>
+  </div>
+  <!-- search section -->
+  <div class="row col s12 m9 l8">
+<div class="input-field col s12 ">
+<input  id="search" type="text" class="validate">
+<label for="search">
+<i class="material-icons pos-relative b ">search</i>
+Search
+</label>
+</div>
+  </div>
+</section>
+<!-- home end -->
+<div class="col s12 l2 hide-on-med-and-down"></div>
 
 
     <script src="/assets/materialize-v1.0.0/js/materialize.min.js"></script>
