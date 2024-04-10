@@ -1,0 +1,20 @@
+@media only screen and (min-width:800px){
+    .box{
+        width: 800px;
+        height: 200px;
+        background-color: yellow;
+    }
+    .box1{
+        width: 250px;
+        height: 50px;
+        background-color: red;
+    }
+}
+@media only screen and (max-width:800px){
+    .box{
+        width: 800px;
+        height: 200px;
+        background-color: yellow;
+    }
+    
+}
